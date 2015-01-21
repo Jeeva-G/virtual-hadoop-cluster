@@ -10,7 +10,7 @@ This is originally forked from [DandyDev/virtual-hadoop-cluster](https://github.
 
 The cluster conists of 3 nodes:
 
-* Master node with 2GB of RAM (Running the NameNode, Hue, ResourceManager etc. after installing the Hadoop services)
+* Master node with 3GB of RAM (Running the NameNode, Hue, ResourceManager etc. after installing the Hadoop services)
 * 2 slaves with 1GB of RAM each (Running DataNodes)
 
 
