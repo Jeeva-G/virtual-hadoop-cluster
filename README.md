@@ -6,12 +6,13 @@ This README describes how to get the cluster with Cloudera Manager up and runnin
 
 ## Specs
 
-The cluster conists of 4 nodes:
+This is originally forked from [DandyDev/virtual-hadoop-cluster](https://github.com/DandyDev/virtual-hadoop-cluster) . And I have updated the Vagrantfile to make use of it in machines with 8GB RAM. This configuration was suggested in the original repository. Note :- It is also mentioned that it will lead to worse performance.
 
-* Master node with 4GB of RAM (Running the NameNode, Hue, ResourceManager etc. after installing the Hadoop services)
-* 3 slaves with 2GB of RAM each (Running DataNodes)
+The cluster conists of 3 nodes:
 
-As you can see, you'll need at least 10GB of free RAM to run this. If you have less, you can try to remove one machine from the Vagrantfile. This will lead to worse performance though!
+* Master node with 2GB of RAM (Running the NameNode, Hue, ResourceManager etc. after installing the Hadoop services)
+* 2 slaves with 1GB of RAM each (Running DataNodes)
+
 
 ## Usage
 
